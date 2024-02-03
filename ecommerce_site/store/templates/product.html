@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+Product 
+{% endblock %}
+
+{% block content %}
+    <div class="container py-5">
+        <div class="row mt-5">
+            <div class="col-10 mx-auto col-md-2 my-3">
+                <img src="{% static 'img/product-3.jpeg' %}" alt="">
+            </div>
+            <div class="col-10 mx-auto col-md-6 my-3">
+                <h1 class="product_title"> Iphone 11 </h1>
+                <p>300$</p>
+                <p class="product-description">Product Description</p>
+                <p class="text-justify product-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt
+                    voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt 
+                    voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt
+                    voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt
+                </p>
+                <p class="stock font-weight-bold">Out of Stock</p>
+        </div>
+    </div>
+    
+{% endblock %}
